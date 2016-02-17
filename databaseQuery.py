@@ -1,10 +1,7 @@
 ##############################################################
-# precipitation_cumulative_wy_plot.py
+# databaseQuery.py
 # Author: Collin Bode; modified by Jesse Hahm
-# Date: May 10, 2014 (original); January 2015
-#
-# Purpose:  
-# Plot rainfall for each water year from 2008 - 2013.
+# Date: May 10, 2014 (original); January 2015
 ##############################################################import pandas as pd
 import matplotlib.pyplot as plt
 import platform
