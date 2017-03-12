@@ -8,7 +8,7 @@ import platform
 import pandas.io.sql as ps
 import MySQLdb
 import datetime as dt
-import os#grab user/pw from gitignored filef = open('pw.pwd')lines = f.readlines()username = lines[0]username = username.rstrip('\n')password = lines[1]
+import os#grab user/pw from gitignored filef = open('..\\pw.pwd')lines = f.readlines()username = lines[0]username = username.rstrip('\n')password = lines[1]
 
 def odmquery(datestart,dateend,dsid,nobad):
     # NOTE: this excludes bad data. To include bad data, remove Qualifier sql
