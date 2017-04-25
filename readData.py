@@ -124,7 +124,7 @@ def readCSV(allFiles, saveCSV):
     for column in voltage:
 	    #only include good sensor voltages, not datalogger
         if (column in metadata['Raw Voltage DSID'].values):
-            if (include_dict[column] == 'yes'):
+            #if (include_dict[column] == 'yes'):
                radius[dsid_dict[column]] = voltage[column]*4
 
     if saveCSV:
